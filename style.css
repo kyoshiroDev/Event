@@ -1,0 +1,94 @@
+
+
+@font-face {
+	font-family: titre h2;
+	src: url(Typo/adlery-pro-blockletter-trial.ttf);
+}
+@font-face {
+	font-family: titre h3;
+	src: url(Typo/the-seasons.otf);
+}
+
+*, :before, :after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 65.2%;
+	text-decoration: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e8ddd4;
+}
+
+/* Partie header */
+header {
+  position: sticky;
+	background: #fef5ec;
+	width: 100%;
+	height: 100px;
+}
+
+header img {
+  margin: 15px;
+	height: 70px;
+}
+
+/* Nav Bar */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+	position: absolute;
+	top: -200px;
+	left: 0;
+	width: 100%;
+	height: 0svh;
+	background: #fef5ec;
+	opacity: 80%;
+  font-size: 4rem;
+  transition: height 0.5s ease-out;
+}
+
+nav a {
+  color: #AD48FF;
+}
+
+nav a:hover {
+  color: #d097ff;
+}
+
+.open {
+  top: 0;
+  height: 100svh;
+  transition: height 0.5s ease-in;
+}
+
+.button-burger {
+	display: flex;
+	align-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.burger-image {
+	width: 40px;
+  height: 40px;
+	margin: auto;
+}
+
+/* Hero Section */
+h1 {
+	font-family: "titre h1", serif;
+	font-size: 3.6rem;
+	margin: auto;
+	padding: 20px 0;
+	text-align: center;
+}
