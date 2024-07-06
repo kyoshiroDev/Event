@@ -177,7 +177,7 @@ h2 {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		gap: 20px;
+		gap: 60px;
 		position: relative;
 		top: 0;
 		width: 100%;
@@ -192,5 +192,13 @@ h2 {
     height: 500px;
   }
 
+  h1 {
+    font-size: 6rem;
+    padding-bottom: 30px;
+  }
 
+  .hero-section p {
+    padding-top: 30px;
+    font-size: 3rem;
+  }
 }
