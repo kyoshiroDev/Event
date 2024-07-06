@@ -1,5 +1,3 @@
-
-
 @font-face {
 	font-family: titre h2;
 	src: url(Typo/adlery-pro-blockletter-trial.ttf);
@@ -9,7 +7,9 @@
 	src: url(Typo/the-seasons.otf);
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -22,26 +22,26 @@ body {
 	background-color: #e8ddd4;
 }
 
-/* Partie header */
+/* Header Start */
 header {
-  position: sticky;
+	position: fixed;
 	background: #fef5ec;
 	width: 100%;
 	height: 100px;
 }
 
 header img {
-  margin: 15px;
+	margin: 15px;
 	height: 70px;
 }
 
-/* Nav Bar */
+/* Nav Bar Start */
 nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 	position: absolute;
 	top: -200px;
 	left: 0;
@@ -49,22 +49,22 @@ nav {
 	height: 0svh;
 	background: #fef5ec;
 	opacity: 80%;
-  font-size: 4rem;
-  transition: height 0.5s ease-out;
+	font-size: 4rem;
+	transition: height 0.5s ease-out;
 }
 
 nav a {
-  color: #AD48FF;
+	color: #ad48ff;
 }
 
 nav a:hover {
-  color: #d097ff;
+	color: #d097ff;
 }
 
 .open {
-  top: 0;
-  height: 100svh;
-  transition: height 0.5s ease-in;
+	top: 0;
+	height: 100svh;
+	transition: height 0.5s ease-in;
 }
 
 .button-burger {
@@ -74,37 +74,98 @@ nav a:hover {
 	top: 0;
 	right: 0;
 	width: 100px;
-  height: 100px;
-  cursor: pointer;
+	height: 100px;
+	cursor: pointer;
 }
 
 .burger-image {
 	width: 40px;
-  height: 40px;
+	height: 40px;
 	margin: auto;
 }
+/* Nav Bar End */
 
-/* Hero Section */
+/* Hero Section Start */
 .hero-section {
-  background-image: url(Images/aliance.webp);
-  background-position: center;
-  background-repeat: no-repeat;
+	background-image: url(Images/alliance.webp);
+	background-position: center;
+	background-repeat: no-repeat;
   background-size: 100%;
-  height: 300px;
+	min-height: 400px;
+	padding-top: 100px;
+	margin-bottom: 20px;
 }
+
 h1 {
 	font-family: "titre h1", serif;
 	font-size: 3.6rem;
 	margin: auto;
-	padding: 20px 0;
+	padding: 10px 0;
 	text-align: center;
 }
 
 .hero-section p {
-  font-size: 2rem;
-  max-width: 250px;
-  text-align: center;
-  margin: auto;
-  line-height: 1.5;
-  font-family: sans-serif, serif;
+	font-size: 2rem;
+	max-width: 250px;
+	text-align: center;
+	margin: auto;
+	line-height: 1.5;
+	font-family: sans-serif, serif;
+}
+/* Hero Section End */
+
+/* Header End */
+
+main {
+	height: 100svh;
+}
+
+h2 {
+	font-family: titre h2;
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 950px) {
+	header {
+		display: grid;
+		grid-template-columns: 100px 1fr 100px;
+		grid-template-rows: 1fr, 1fr;
+		position: fixed;
+		background: #fef5ec;
+		width: 100%;
+		height: 100px;
+	}
+
+	.button-burger {
+		display: none;
+	}
+
+	header img {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 1;
+	}
+
+	nav {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		flex-direction: row;
+		top: 0;
+		right: 0;
+		height: 100px;
+		opacity: 100%;
+		font-size: 2.5rem;
+	}
+	.hero-section {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 2;
+	}
 }
