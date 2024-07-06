@@ -24,10 +24,10 @@ body {
 
 /* Header Start */
 header {
-  position: sticky;
+	position: sticky;
 	background: #fef5ec;
 	width: 100%;
-  height: 300px;
+	height: 300px;
 }
 
 .logo {
@@ -52,7 +52,6 @@ nav {
 }
 
 nav a {
-	font-size: 5rem;
 	color: #ad48ff;
 }
 
@@ -73,7 +72,8 @@ nav a:hover {
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 30px;
+	width: 150px;
+	height: 150px;
 	cursor: pointer;
 }
 
@@ -81,6 +81,23 @@ nav a:hover {
 	width: 80px;
 	height: 80px;
 	margin: auto;
+}
+
+.reseau-sociaux {
+	display: none;
+}
+
+.reseau-sociaux-mobile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	width: 200px;
+  padding-top: 30px;
+}
+
+.reseau-sociaux-mobile img {
+	height: 50px;
 }
 /* Nav Bar End */
 
@@ -95,10 +112,10 @@ nav a:hover {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 500px;
+	padding-top: 150px;
 }
 
 h1 {
-	padding-top: 150px;
 	font-family: "titre h1", serif;
 	font-size: 6rem;
 	text-align: center;
@@ -123,3 +140,47 @@ h2 {
 
 /* Responsive */
 
+@media screen and (min-width: 1000px) {
+	.burger-image {
+		display: none;
+	}
+
+	.reseau-sociaux {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+		width: 200px;
+	}
+
+	.reseau-sociaux img {
+		height: 50px;
+	}
+
+	header {
+		display: grid;
+		grid-template-columns: 150px 1fr 200px;
+		grid-column-gap: 10px;
+		grid-row-gap: 20px;
+		justify-items: stretch;
+		align-items: stretch;
+		height: 150px;
+	}
+
+	.logo {
+		height: 150px;
+	}
+
+	nav {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		position: relative;
+		top: 0;
+		width: 100%;
+		height: 150px;
+		background: #fef5ec;
+		font-size: 2.5rem;
+	}
+}
