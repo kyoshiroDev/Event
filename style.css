@@ -95,7 +95,7 @@ nav a:hover {
 	background-position: center;
   background-repeat: no-repeat;
 	background-size: 100%;
-	height: 200px;
+	height: 500px;
 	margin-bottom: 20px;
 }
 
@@ -164,9 +164,5 @@ h2 {
 		height: 100px;
 		opacity: 100%;
 		font-size: 2.5rem;
-	}
-
-	.hero-section {
-    height: 500px;
 	}
 }
