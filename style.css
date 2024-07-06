@@ -29,7 +29,7 @@ header {
   justify-content: center;
 	position: fixed;
 	background: #fef5ec;
-	width: 100svw;
+	width: 100%;
   height: 200px;
 }
 
@@ -47,7 +47,7 @@ nav {
 	position: absolute;
 	top: -300px;
 	width: 100%;
-	height: 0svh;
+	height: 0;
 	background: #fef5ec;
 	opacity: 80%;
 	font-size: 4rem;
@@ -65,7 +65,7 @@ nav a:hover {
 
 .open {
 	top: 0;
-	height: 100svh;
+	height: 100%;
 	transition: height 0.5s ease-in;
 }
 
@@ -121,12 +121,8 @@ h1 {
 
 /* Header End */
 
-main {
-	height: 100svh;
-}
-
 h2 {
-	font-family: titre h2;
+	font-family: titre h2, serif;
 	font-size: 2.4rem;
 	text-align: center;
 }
@@ -137,7 +133,7 @@ h2 {
 	header {
 		display: grid;
 		grid-template-columns: 100px 1fr 100px;
-		grid-template-rows: 1fr, 1fr;
+		grid-template-rows: 1fr 1fr;
 		position: fixed;
 		background: #fef5ec;
 		width: 100%;
