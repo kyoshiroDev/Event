@@ -27,7 +27,7 @@ header {
 	position: sticky;
 	background: #fef5ec;
 	width: 100%;
-	height: 300px;
+	height: 150px;
 }
 
 .logo {
@@ -111,13 +111,12 @@ nav a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 500px;
-	padding-top: 150px;
+  padding: 20px;
 }
 
 h1 {
 	font-family: "titre h1", serif;
-	font-size: 6rem;
+	font-size: 4.5rem;
 	text-align: center;
 }
 
@@ -153,6 +152,9 @@ h2 {
 		width: 200px;
 	}
 
+  .reseau-sociaux-mobile{
+    display: none;
+  }
 	.reseau-sociaux img {
 		height: 50px;
 	}
@@ -180,7 +182,15 @@ h2 {
 		top: 0;
 		width: 100%;
 		height: 150px;
-		background: #fef5ec;
 		font-size: 2.5rem;
 	}
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+
+
 }
