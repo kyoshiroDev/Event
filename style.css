@@ -24,15 +24,14 @@ body {
 
 /* Header Start */
 header {
-	position: fixed;
+  position: sticky;
 	background: #fef5ec;
 	width: 100%;
-  height: 300px;
 }
 
 .logo {
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 }
 
 /* Nav Bar Start */
@@ -53,7 +52,7 @@ nav {
 }
 
 nav a {
-  font-size: 4rem;
+	font-size: 4rem;
 	color: #ad48ff;
 }
 
@@ -63,14 +62,14 @@ nav a:hover {
 
 .open {
 	top: 0;
-	height: 100%;
+	height: 100svh;
 	transition: height 0.5s ease-in;
 }
 
 .button-burger {
 	display: flex;
 	align-content: center;
-  justify-content: center;
+	justify-content: center;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -96,11 +95,10 @@ nav a:hover {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 500px;
-	margin-bottom: 20px;
 }
 
 h1 {
-  padding-top: 150px;
+	padding-top: 150px;
 	font-family: "titre h1", serif;
 	font-size: 6rem;
 	text-align: center;
@@ -125,38 +123,3 @@ h2 {
 
 /* Responsive */
 
-@media screen and (max-width: 950px) {
-	header {
-		display: grid;
-		grid-template-columns: 100px 1fr 100px;
-		grid-template-rows: 1fr 1fr;
-		position: fixed;
-		background: #fef5ec;
-		width: 100%;
-		height: 100px;
-	}
-
-	.button-burger {
-		display: none;
-	}
-
-	header img {
-		grid-column-start: 1;
-		grid-column-end: 2;
-		grid-row-start: 1;
-		grid-row-end: 1;
-	}
-
-	nav {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 1;
-		flex-direction: row;
-		top: 0;
-		right: 0;
-		height: 100px;
-		opacity: 100%;
-		font-size: 2.5rem;
-	}
-}
