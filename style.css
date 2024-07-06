@@ -104,6 +104,7 @@ nav a:hover {
 }
 
 h1 {
+  padding-top: 150px;
 	font-family: "titre h1", serif;
 	font-size: 6rem;
 	text-align: center;
