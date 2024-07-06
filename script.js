@@ -1,3 +1,4 @@
+// Button navbar
 const menuBurger = document.querySelector(".button-burger");
 const navBar = document.querySelector("nav");
 
@@ -12,3 +13,4 @@ menuBurger.addEventListener("click", () => {
   }
 });
 
+//
