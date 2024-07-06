@@ -67,8 +67,8 @@ nav a:hover {
 
 .button-burger {
 	display: flex;
-	align-content: center;
-	justify-content: center;
+	align-content: start;
+	justify-content: end;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -78,9 +78,9 @@ nav a:hover {
 }
 
 .burger-image {
-	width: 80px;
-	height: 80px;
-	margin: auto;
+	width: 40px;
+	height: 40px;
+  margin: 20px;
 }
 
 .reseau-sociaux {
@@ -91,13 +91,13 @@ nav a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 80px;
+	gap: 40px;
 	width: 200px;
   padding-top: 30px;
 }
 
 .reseau-sociaux-mobile img {
-	height: 50px;
+	height: 30px;
 }
 /* Nav Bar End */
 
@@ -116,12 +116,12 @@ nav a:hover {
 
 h1 {
 	font-family: "titre h1", serif;
-	font-size: 4.5rem;
+	font-size: 3rem;
 	text-align: center;
 }
 
 .hero-section p {
-	font-size: 3rem;
+	font-size: 2rem;
 	max-width: 350px;
 	text-align: center;
 	line-height: 1.5;
