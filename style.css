@@ -95,7 +95,7 @@ nav a:hover {
 	background-position: center;
   background-repeat: no-repeat;
 	background-size: 100%;
-	height: 400px;
+	height: 200px;
 	margin-bottom: 20px;
 }
 
@@ -131,7 +131,7 @@ h2 {
 
 /* Responsive */
 
-@media screen and (min-width: 950px) {
+@media screen and (max-width: 950px) {
 	header {
 		display: grid;
 		grid-template-columns: 100px 1fr 100px;
@@ -165,7 +165,7 @@ h2 {
 		opacity: 100%;
 		font-size: 2.5rem;
 	}
-  
+
 	.hero-section {
     height: 500px;
 	}
