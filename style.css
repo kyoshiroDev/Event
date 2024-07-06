@@ -87,11 +87,14 @@ nav a:hover {
 
 /* Hero Section Start */
 .hero-section {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
 	background-image: url(Images/alliance.webp);
 	background-position: center;
-	background-repeat: no-repeat;
-  background-size: 100%;
-	min-height: 400px;
+	background-size: 100%;
+	height: 600px;
 	padding-top: 100px;
 	margin-bottom: 20px;
 }
@@ -163,9 +166,5 @@ h2 {
 		font-size: 2.5rem;
 	}
 	.hero-section {
-		grid-column-start: 2;
-		grid-column-end: 3;
-		grid-row-start: 2;
-		grid-row-end: 2;
 	}
 }
