@@ -1,9 +1,9 @@
 @font-face {
-	font-family: titre h2;
+	font-family: adlery-blockletter;
 	src: url(Typo/adlery-pro-blockletter-trial.ttf);
 }
 @font-face {
-	font-family: titre h3;
+	font-family: soustitre;
 	src: url(Typo/the-seasons.otf);
 }
 
@@ -13,13 +13,13 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-size: 65.2%;
 	text-decoration: none;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8ddd4;
+	font-size: 62.5%;
 }
 
 /* Header Start */
@@ -27,11 +27,11 @@ header {
 	position: sticky;
 	background: #fef5ec;
 	width: 100%;
-	height: 150px;
+	height: 120px;
 }
 
 .logo {
-	height: 100%;
+	height: 100px;
 }
 
 /* Nav Bar Start */
@@ -47,12 +47,12 @@ nav {
 	height: 0;
 	background: #fef5ec;
 	opacity: 80%;
-	font-size: 4rem;
+	font-size: 1.5em;
 	transition: height 0.5s ease-out;
 }
 
 nav a {
-	color: #7900D1;
+	color: #7900d1;
 }
 
 nav a:hover {
@@ -80,25 +80,13 @@ nav a:hover {
 .burger-image {
 	width: 40px;
 	height: 40px;
-  margin: 20px;
+	margin: 20px;
 }
 
 .reseau-sociaux {
 	display: none;
 }
 
-.reseau-sociaux-mobile {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 40px;
-	width: 200px;
-  padding-top: 30px;
-}
-
-.reseau-sociaux-mobile img {
-	height: 30px;
-}
 /* Nav Bar End */
 
 /* Hero Section Start */
@@ -108,34 +96,99 @@ nav a:hover {
 	align-items: center;
 	justify-content: start;
 	background-image: url(Images/alliance.webp);
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100%;
-  padding: 20px;
 }
 
 h1 {
+	padding: 20px;
 	font-family: "titre h1", serif;
-	font-size: 3rem;
+	font-size: 4.6em;
 	text-align: center;
 }
 
 .hero-section p {
-	font-size: 2rem;
+	padding-bottom: 20px;
+	font-size: 2em;
 	max-width: 350px;
+  width: 220px;
 	text-align: center;
-	line-height: 1.5;
-	font-family: sans-serif, serif;
+}
+.reseau-sociaux-mobile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	width: 200px;
+	padding-bottom: 10px;
+}
+
+.reseau-sociaux-mobile img {
+	height: 30px;
 }
 /* Hero Section End */
-
 /* Header End */
 
-h2 {
-	font-family: titre h2, serif;
-	font-size: 2.4rem;
-	text-align: center;
+/* Main Start */
+p {
+	font-size: 1.55em;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
 }
+
+h2 {
+	font-family: adlery-blockletter, serif;
+	font-size: 2.55em;
+	text-align: center;
+  padding-top: 20px;
+}
+
+h3 {
+	color: #7900d1;
+	font-size: 2.55em;
+}
+
+/* Card Prestations  */
+.tarif {
+	font-family: titre, serif;
+}
+
+.tarif-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	margin: auto;
+	padding-top: 20px;
+}
+.tarif-title,
+.details-prestation {
+	font-family: adlery-blockletter, serif, sans-serif;
+}
+
+.tarif {
+	display: flex;
+	gap: 10px;
+}
+
+.tarif-content a {
+  border: solid 1px #7900d1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2em;
+  color: #7900d1;
+  font-family: adlery-blockletter, serif, sans-serif;
+  cursor: pointer;
+}
+
+.tarif-content a:hover {
+  color: #fff;
+  border: solid 1px #7900d1;
+  background-color: #7900d1;
+}
+/* Main End */
 
 /* Responsive */
 
@@ -152,9 +205,9 @@ h2 {
 		width: 200px;
 	}
 
-  .reseau-sociaux-mobile{
-    display: none;
-  }
+	.reseau-sociaux-mobile {
+		display: none;
+	}
 	.reseau-sociaux img {
 		height: 50px;
 	}
@@ -182,23 +235,23 @@ h2 {
 		top: 0;
 		width: 100%;
 		height: 150px;
-		font-size: 2.5rem;
+		font-size: 1.5em;
 	}
 
-  .hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-  }
+	.hero-section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 500px;
+	}
 
-  h1 {
-    font-size: 6rem;
-    padding-bottom: 30px;
-  }
+	h1 {
+		font-size: 6em;
+		padding-bottom: 30px;
+	}
 
-  .hero-section p {
-    padding-top: 30px;
-    font-size: 3rem;
-  }
+	.hero-section p {
+		padding-top: 30px;
+		font-size: 2.5em;
+	}
 }

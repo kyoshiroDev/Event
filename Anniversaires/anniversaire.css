@@ -1,0 +1,27 @@
+main {
+	max-width: 950px;
+	margin: auto;
+}
+
+.text-content p {
+	text-align: justify;
+	max-width: 400px;
+}
+
+.birthday-picture,
+.tarif-content {
+	border: solid 6px white;
+	max-width: 400px;
+  min-width: 350px;
+  margin: auto;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px 0;
+}
+
