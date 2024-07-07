@@ -1,19 +1,17 @@
 main {
 	max-width: 950px;
-	margin: auto;
+  margin: auto;
 }
 
 .text-content p {
 	text-align: justify;
-	max-width: 400px;
+	max-width: 350px;
 }
 
 .birthday-picture,
 .tarif-content {
 	border: solid 6px white;
-	max-width: 400px;
-  min-width: 350px;
-  margin: auto;
+  max-width: 350px;
 }
 
 .content {
@@ -24,4 +22,3 @@ main {
 	gap: 20px;
 	padding: 20px 0;
 }
-
