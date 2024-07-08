@@ -31,15 +31,11 @@ main {
 
 .birthday-picture-content {
 	width: 350px;
-	height: 524px;
+	height: 525px;
 	border: solid 6px white;
   box-sizing: content-box;
 }
 
-.birthday-picture{
-  max-width: 350px;
-  max-height: 524px;
-}
 @media screen and (min-width: 950px) {
 	.content {
 		display: flex;
