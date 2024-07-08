@@ -29,6 +29,13 @@ main {
 	gap: 20px;
 }
 
+.birthday-picture-content {
+	width: 350px;
+	height: 524px;
+	border: solid 6px white;
+  box-sizing: content-box;
+}
+
 @media screen and (min-width: 950px) {
 	.content {
 		display: flex;
