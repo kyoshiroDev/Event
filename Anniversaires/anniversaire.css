@@ -13,14 +13,13 @@ main {
 	margin: auto;
 }
 
-.birthday-picture {
-	height: 600px;
-}
-
 .birthday-picture,
 .tarif-content {
 	border: solid 6px white;
-  width: 400px;
+}
+
+.tarif-content {
+	width: 400px;
 }
 
 .content {
