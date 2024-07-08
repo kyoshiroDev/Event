@@ -14,13 +14,13 @@ main {
 }
 
 .birthday-picture {
-	min-width: 400px;
-	min-height: 624px;
+	max-width: 400px;
+	max-height: 599px;
 }
 
 .birthday-picture,
 .tarif-content {
-	border: solid 6px white ;
+	border: solid 6px white;
 }
 
 .tarif-content {
