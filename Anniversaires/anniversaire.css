@@ -3,14 +3,14 @@ main {
 	margin: auto;
 }
 
-.text-content p {
+.text-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
 	text-align: justify;
 	width: 350px;
 	margin: auto;
-}
-
-.text-content p:nth-child(1) {
-	padding: 0 0 30px 0;
 }
 
 .birthday-picture,
