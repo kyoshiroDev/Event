@@ -14,7 +14,7 @@ main {
 }
 
 .birthday-picture {
-	width: 450px;
+	min-width: 450px;
 	min-height: 674px;
   padding: 0 20px;
 }
