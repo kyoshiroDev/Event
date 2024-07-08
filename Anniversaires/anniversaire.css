@@ -18,7 +18,7 @@ main {
 }
 
 .tarif-content {
-	width: 400px;
+	width: 350px;
 }
 
 .content {
@@ -31,6 +31,8 @@ main {
 
 .birthday-picture-content {
 	border: solid 6px white;
+  min-width: auto;
+  max-height: 536px;
 }
 
 .birthday-picture {

@@ -26,9 +26,9 @@ body {
 
 /* Header Start */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: sticky;
 	background: #fef5ec;
 	width: 100%;
@@ -37,7 +37,7 @@ header {
 
 .logo {
 	width: 100px;
-  height: 100px;
+	height: 100px;
 	margin: auto;
 }
 
@@ -133,7 +133,7 @@ h1 {
 
 .reseau-sociaux-mobile img {
 	height: 30px;
-  width: 30px;
+	width: 30px;
 }
 /* Hero Section End */
 /* Header End */
@@ -210,7 +210,6 @@ h3 {
 		justify-content: center;
 		gap: 30px;
 		width: 200px;
-    
 	}
 
 	.reseau-sociaux-mobile {
@@ -218,7 +217,7 @@ h3 {
 	}
 	.reseau-sociaux img {
 		height: 50px;
-    width: 50px;
+		width: 50px;
 	}
 
 	header {
