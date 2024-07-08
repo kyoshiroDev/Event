@@ -1,10 +1,12 @@
 @font-face {
 	font-family: adlery-blockletter;
 	src: url(Typo/adlery-pro-blockletter-trial.ttf);
+	font-display: block;
 }
 @font-face {
 	font-family: soustitre;
 	src: url(Typo/the-seasons.otf);
+	font-display: block;
 }
 
 *,
@@ -32,6 +34,7 @@ header {
 
 .logo {
 	width: 100px;
+  height: 100px;
 	margin: auto;
 }
 
@@ -122,12 +125,12 @@ h1 {
 	justify-content: center;
 	gap: 40px;
 	max-width: 200px;
-  max-height: 200px;
 	padding-bottom: 10px;
 }
 
 .reseau-sociaux-mobile img {
 	height: 30px;
+  width: 30px;
 }
 /* Hero Section End */
 /* Header End */

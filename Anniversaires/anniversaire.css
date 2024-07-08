@@ -4,19 +4,23 @@ main {
 }
 
 .text-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 20px;
 	text-align: justify;
 	width: 350px;
 	margin: auto;
 }
 
+.birthday-picture {
+	height: 600px;
+}
+
 .birthday-picture,
 .tarif-content {
 	border: solid 6px white;
-	width: 400px;
+  width: 400px;
 }
 
 .content {
