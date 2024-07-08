@@ -14,8 +14,8 @@ main {
 }
 
 .birthday-picture{
-  min-width: 300;
-  min-height: 449;
+  width: 450;
+  height: 674;
 }
 .birthday-picture,
 .tarif-content {
