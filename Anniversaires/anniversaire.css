@@ -60,4 +60,9 @@ main {
 	border: solid 6px white;
 	box-sizing: content-box;
 }
+
+.birthday-picture {
+	width: 350px;
+	height: 524px;
+}
 }
