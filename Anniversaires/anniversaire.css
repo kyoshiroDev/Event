@@ -13,6 +13,11 @@ main {
 	margin: auto;
 }
 
+.birthday-picture-content{
+  width: max-content;
+  height: max-content;
+}
+
 .birthday-picture-content,
 .tarif-content {
 	border: solid 6px white;
