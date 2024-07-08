@@ -36,6 +36,11 @@ main {
   box-sizing: content-box;
 }
 
+.birthday-picture{
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (min-width: 950px) {
 	.content {
 		display: flex;
