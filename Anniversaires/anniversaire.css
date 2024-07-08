@@ -1,21 +1,22 @@
 main {
-	max-width: 950px;
-  margin: auto;
+	max-width: 1080px;
+	margin: auto;
 }
 
 .text-content p {
 	text-align: justify;
 	width: 350px;
+	margin: auto;
 }
 
-.text-content:nth-child(2){
-  padding-bottom: 20px;
+.text-content p:nth-child(1) {
+	padding: 0 0 30px 0;
 }
 
 .birthday-picture,
 .tarif-content {
 	border: solid 6px white;
-  width: 400px;
+	width: 400px;
 }
 
 .content {
@@ -24,4 +25,20 @@ main {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+}
+
+@media screen and (min-width: 950px) {
+	.content {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 150px;
+		margin: 30px 0;
+	}
+
+	.birthday-picture {
+		height: 300px;
+		width: auto;
+	}
 }
