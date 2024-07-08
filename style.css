@@ -26,6 +26,9 @@ body {
 
 /* Header Start */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 	position: sticky;
 	background: #fef5ec;
 	width: 100%;
@@ -226,11 +229,6 @@ h3 {
 		justify-items: stretch;
 		align-items: stretch;
 		height: 150px;
-	}
-
-	.logo {
-		width: 100px;
-		margin: auto;
 	}
 
 	nav {
