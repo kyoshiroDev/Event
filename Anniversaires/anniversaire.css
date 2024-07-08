@@ -36,10 +36,6 @@ main {
   box-sizing: content-box;
 }
 
-.birthday-picture{
-  width: 350px;
-  height: 525px;
-}
 @media screen and (min-width: 950px) {
 	.content {
 		display: flex;
