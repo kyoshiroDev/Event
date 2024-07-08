@@ -207,6 +207,7 @@ h3 {
 		justify-content: center;
 		gap: 30px;
 		width: 200px;
+    
 	}
 
 	.reseau-sociaux-mobile {
@@ -214,6 +215,7 @@ h3 {
 	}
 	.reseau-sociaux img {
 		height: 50px;
+    width: 50px;
 	}
 
 	header {
@@ -246,7 +248,7 @@ h3 {
 	.hero-section {
 		display: flex;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: center;
 		height: 500px;
 	}
 

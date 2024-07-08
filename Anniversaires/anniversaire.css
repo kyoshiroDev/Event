@@ -40,12 +40,10 @@ main {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		gap: 150px;
-		margin: 30px 0;
+		gap: 50px;
+		margin: 30px auto;
 	}
-
-	.birthday-picture {
-		height: 300px;
-		width: auto;
-	}
+  .text-content {
+    margin: 0;
+  }
 }
