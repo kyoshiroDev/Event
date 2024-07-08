@@ -5,13 +5,17 @@ main {
 
 .text-content p {
 	text-align: justify;
-	max-width: 350px;
+	width: 350px;
+}
+
+.text-content:nth-child(2){
+  padding-bottom: 20px;
 }
 
 .birthday-picture,
 .tarif-content {
 	border: solid 6px white;
-  max-width: 350px;
+  width: 400px;
 }
 
 .content {

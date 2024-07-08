@@ -31,7 +31,8 @@ header {
 }
 
 .logo {
-	height: 100px;
+	width: 100px;
+	margin: auto;
 }
 
 /* Nav Bar Start */
@@ -112,7 +113,7 @@ h1 {
 	padding-bottom: 20px;
 	font-size: 2em;
 	max-width: 350px;
-  width: 220px;
+	width: 220px;
 	text-align: center;
 }
 .reseau-sociaux-mobile {
@@ -141,7 +142,7 @@ h2 {
 	font-family: adlery-blockletter, serif;
 	font-size: 2.55em;
 	text-align: center;
-  padding: 20px 0;
+	padding: 20px 0;
 }
 
 h3 {
@@ -159,7 +160,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
-  padding: 20px 0;
+	padding: 20px 0;
 	margin: auto;
 }
 .tarif-title,
@@ -173,19 +174,19 @@ h3 {
 }
 
 .tarif-content a {
-  border: solid 1px #7900d1;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 2em;
-  color: #7900d1;
-  font-family: adlery-blockletter, serif, sans-serif;
-  cursor: pointer;
+	border: solid 1px #7900d1;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 2em;
+	color: #7900d1;
+	font-family: adlery-blockletter, serif, sans-serif;
+	cursor: pointer;
 }
 
 .tarif-content a:hover {
-  color: #fff;
-  border: solid 1px #7900d1;
-  background-color: #7900d1;
+	color: #fff;
+	border: solid 1px #7900d1;
+	background-color: #7900d1;
 }
 /* Main End */
 
@@ -223,7 +224,7 @@ h3 {
 
 	.logo {
 		width: 100px;
-    margin: auto;
+		margin: auto;
 	}
 
 	nav {
