@@ -33,12 +33,12 @@ main {
 	width: 350px;
 	height: 525px;
 	border: solid 6px white;
-  box-sizing: content-box;
+	box-sizing: content-box;
 }
 
-.birthday-picture{
-  width: 350px;
-  height: 525px;
+.birthday-picture {
+	width: 350px;
+	height: 525px;
 }
 @media screen and (min-width: 950px) {
 	.content {
