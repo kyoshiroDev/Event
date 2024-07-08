@@ -15,12 +15,13 @@ main {
 
 .birthday-picture {
 	width: 450px;
-	height: 674px;
+	min-height: 674px;
+  padding: 0 20px;
 }
 
 .birthday-picture,
 .tarif-content {
-	border: solid 6px white;
+	border: solid 6px white ;
 }
 
 .tarif-content {
