@@ -37,8 +37,8 @@ main {
 }
 
 .birthday-picture {
-	width: 400px;
-	height: 599px;
+	max-width: 400px;
+	max-height: 599px;
 }
 
 @media screen and (min-width: 950px) {
