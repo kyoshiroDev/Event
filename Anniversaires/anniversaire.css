@@ -14,9 +14,8 @@ main {
 }
 
 .birthday-picture {
-	min-width: 450px;
-	min-height: 674px;
-  padding: 0 20px;
+	min-width: 400px;
+	min-height: 624px;
 }
 
 .birthday-picture,
@@ -25,7 +24,7 @@ main {
 }
 
 .tarif-content {
-	width: 350px;
+	width: 400px;
 }
 
 .content {
