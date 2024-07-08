@@ -103,9 +103,9 @@ nav a:hover {
 	align-items: center;
 	justify-content: start;
 	background-image: url(Images/alliance.webp);
-	background-position: top;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 h1 {
