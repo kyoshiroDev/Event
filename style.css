@@ -101,22 +101,22 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: start;
+	justify-content: space-around;
 	background-image: url(Images/alliance.webp);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100%;
+  min-height: max-content;
+  padding: 10px;
 }
 
 h1 {
-	padding: 20px;
 	font-family: "titre h1", serif;
 	font-size: 4.6em;
 	text-align: center;
 }
 
 .hero-section p {
-	padding-bottom: 20px;
 	font-size: 2em;
 	max-width: 350px;
 	width: 220px;
@@ -128,7 +128,6 @@ h1 {
 	justify-content: center;
 	gap: 40px;
 	max-width: 200px;
-	padding-bottom: 10px;
 }
 
 .reseau-sociaux-mobile img {
@@ -153,23 +152,34 @@ h2 {
 }
 
 h3 {
+  font-family: adlery-blockletter, serif, sans-serif;
 	color: #7900d1;
 	font-size: 2.55em;
 }
 
 /* Card Prestations  */
-.tarif {
-	font-family: titre, serif;
+.tarif-content{
+  display: flex;
+  align-items: start;
+  height: 400px;
+  width: 100dvw;
+  margin: 0;
+  background-color: #fff;
 }
 
-.tarif-content {
+.formule {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
 	padding: 20px 0;
 	margin: auto;
+  border: solid 6px #d097ff;
+  width: 350px;
+	top: -300px;
+  background-color: #fef5ec;
 }
+
 .tarif-title,
 .details-prestation {
 	font-family: adlery-blockletter, serif, sans-serif;
@@ -178,6 +188,7 @@ h3 {
 .tarif {
 	display: flex;
 	gap: 10px;
+  font-family: titre, serif;
 }
 
 .tarif-content a {
@@ -256,5 +267,6 @@ h3 {
 
 	.hero-section p {
 		font-size: 2.5em;
+    min-width: 400px;
 	}
 }

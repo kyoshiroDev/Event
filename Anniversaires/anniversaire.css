@@ -1,5 +1,4 @@
 main {
-	max-width: 1080px;
 	margin: auto;
 }
 
@@ -11,14 +10,6 @@ main {
 	text-align: justify;
 	width: 350px;
 	margin: auto;
-}
-
-.tarif-content {
-	border: solid 6px white;
-}
-
-.tarif-content {
-	width: 350px;
 }
 
 .content {
