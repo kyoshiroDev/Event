@@ -259,7 +259,7 @@ footer {
 }
 footer p {
 	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-column-end: 4;
 	width: 100%;
 	text-align: center;
 }
@@ -385,7 +385,7 @@ footer p {
 
 	footer {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 2fr;
 		grid-column-gap: 20px;
 		justify-items: stretch;
