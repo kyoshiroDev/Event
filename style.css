@@ -53,16 +53,15 @@ nav {
 	width: 100%;
 	height: 0;
 	background: #fef5ec;
-	opacity: 80%;
 	font-size: 1.5em;
 	transition: height 0.5s ease-out;
 }
 
-nav a {
+a {
 	color: #7900d1;
 }
 
-nav a:hover {
+a:hover {
 	color: #d097ff;
 }
 
@@ -106,8 +105,8 @@ nav a:hover {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 100%;
-  min-height: max-content;
-  padding: 10px;
+	min-height: max-content;
+	padding: 10px;
 }
 
 h1 {
@@ -152,19 +151,62 @@ h2 {
 }
 
 h3 {
-  font-family: adlery-blockletter, serif, sans-serif;
+	font-family: adlery-blockletter, serif, sans-serif;
 	color: #7900d1;
 	font-size: 2.55em;
 }
 
-/* Card Prestations  */
-.tarif-content{
-  display: flex;
-  align-items: start;
-  height: 400px;
-  width: 100dvw;
-  margin: 0;
-  background-color: #fff;
+.text-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 20px;
+	width: 350px;
+	margin: auto;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding-bottom: 20px;
+}
+
+.picture-content {
+	border: solid 6px white;
+	min-width: auto;
+	max-height: 536px;
+}
+
+.picture {
+	height: 536;
+	width: auto;
+}
+
+.prestation-client {
+	height: 400px;
+	background-color: #fef5ec;
+}
+/* Prestations  */
+.tarif-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #fff;
+	min-height: fit-content;
+	padding: 30px;
+}
+
+.formule-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: auto;
+	gap: 20px;
 }
 
 .formule {
@@ -172,12 +214,10 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
-	padding: 20px 0;
-	margin: auto;
-  border: solid 6px #d097ff;
-  width: 350px;
-	top: -300px;
-  background-color: #fef5ec;
+	padding: 20px;
+	border: solid 6px #d097ff;
+	width: 350px;
+	background-color: #fef5ec;
 }
 
 .tarif-title,
@@ -188,7 +228,7 @@ h3 {
 .tarif {
 	display: flex;
 	gap: 10px;
-  font-family: titre, serif;
+	font-family: titre, serif;
 }
 
 .tarif-content a {
@@ -208,6 +248,67 @@ h3 {
 }
 /* Main End */
 
+/* Footer */
+footer {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+footer p {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	width: 100%;
+	text-align: center;
+}
+
+.liens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+}
+
+.horaires {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+  text-decoration: none;
+}
+
+.reseau-sociaux-footer {
+	display: flex;
+	gap: 20px;
+}
+
+.reseaux {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+footer p {
+	font-size: 1.5em;
+}
 /* Responsive */
 
 @media screen and (min-width: 1000px) {
@@ -243,14 +344,14 @@ h3 {
 
 	nav {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
-		gap: 60px;
 		position: relative;
 		top: 0;
-		width: 100%;
 		height: 150px;
 		font-size: 1.5em;
+		max-width: 950px;
+		margin: auto;
 	}
 
 	.hero-section {
@@ -267,6 +368,28 @@ h3 {
 
 	.hero-section p {
 		font-size: 2.5em;
-    min-width: 400px;
+		min-width: 400px;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+		margin: 30px auto;
+	}
+	.text-content {
+		margin: 0;
+	}
+
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 2fr;
+		grid-column-gap: 20px;
+		justify-items: stretch;
+		align-items: stretch;
+		padding: 20px;
 	}
 }
