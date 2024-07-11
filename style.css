@@ -151,6 +151,7 @@ h2 {
 }
 
 h3 {
+  text-align: center;
 	font-family: adlery-blockletter, serif, sans-serif;
 	color: #7900d1;
 	font-size: 2.55em;
@@ -181,8 +182,8 @@ h3 {
 }
 
 .picture {
-	height: 536;
-	width: auto;
+	max-height: 536;
+	min-width: 380px;
 }
 
 .prestation-client {
@@ -264,6 +265,10 @@ footer p {
 	text-align: center;
 }
 
+footer a {
+  font-size: 1.5em;
+}
+
 .liens {
 	display: flex;
 	flex-direction: column;
@@ -312,7 +317,7 @@ footer p {
 /* Responsive */
 
 @media screen and (min-width: 1000px) {
-	.burger-image {
+	.button-burger {
 		display: none;
 	}
 
