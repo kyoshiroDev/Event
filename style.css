@@ -196,7 +196,6 @@ h3 {
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #fff;
-	min-height: fit-content;
 	padding: 30px;
 }
 
