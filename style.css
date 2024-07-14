@@ -263,9 +263,9 @@ button {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;
-	margin: auto;
-	max-width: 800px;
-	height: 800px;
+  margin: auto;
+	width: 1000px;
+	min-width: 370px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	height: fit-content;
@@ -276,17 +276,18 @@ button {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	max-width: 400px;
 	padding-bottom: 20px;
 }
 
 .coordonner a {
+  text-align: center;
 	font-size: 2em;
+	width: 100%;
 }
 
 form {
 	border-top: solid 5px #d097ff;
-	max-width: 400px;
+	width: 100%;
 }
 
 form label {
@@ -302,16 +303,19 @@ label {
 
 input,
 select,
-option {
+option,textarea {
 	background-color: #fff;
 	border-radius: 5px;
-	height: 30px;
 	border: solid 1px #7900d1;
+}
+
+input,selecto,option{
+  	height: 30px;
 }
 
 input:focus,
 select:focus,
-option:focus {
+option:focus,textarea {
 	border: solid 1px #d097ff;
 	outline: none;
 }
@@ -476,29 +480,19 @@ footer p {
 	}
 
 	.formulaire {
-		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		background-color: #fff;
-		margin: auto;
-		width: 800px;
-		height: 800px;
-		border-radius: 20px;
-		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-		height: fit-content;
-		padding: 30px;
 	}
 
-	.coordonner {
-		width: 400px;
+	.coordonner{
+    text-align: center;
+		width: 500px;
 	}
 
 	form {
 		padding-left: 20px;
 		border-top: none;
 		border-left: solid 5px #d097ff;
-		width: 400px;
+		width: 500px;
 	}
 	footer {
 		display: grid;
