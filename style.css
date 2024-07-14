@@ -137,6 +137,12 @@ h1 {
 /* Header End */
 
 /* Main Start */
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 800px;
+}
 p {
 	font-size: 1.55em;
 	font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +157,7 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+	text-align: center;
 	font-family: adlery-blockletter, serif, sans-serif;
 	color: #7900d1;
 	font-size: 2.55em;
@@ -182,6 +188,8 @@ h3 {
 }
 
 .picture {
+	width: 350px;
+	height: 524px;
 	max-height: 536;
 	min-width: 380px;
 }
@@ -231,7 +239,8 @@ h3 {
 	font-family: titre, serif;
 }
 
-.tarif-content a {
+.tarif-content a,
+button {
 	border: solid 1px #7900d1;
 	padding: 10px;
 	border-radius: 5px;
@@ -242,6 +251,85 @@ h3 {
 }
 
 .tarif-content a:hover {
+	color: #fff;
+	border: solid 1px #7900d1;
+	background-color: #7900d1;
+}
+
+/* Page Contact */
+.formulaire {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	margin: auto;
+	max-width: 800px;
+	height: 800px;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	height: fit-content;
+	padding: 30px;
+}
+
+.coordonner {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 400px;
+	padding-bottom: 20px;
+}
+
+.coordonner a {
+	font-size: 2em;
+}
+
+form {
+	border-top: solid 5px #d097ff;
+	max-width: 400px;
+}
+
+form label {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+label {
+	padding-top: 20px;
+}
+
+input,
+select,
+option {
+	background-color: #fff;
+	border-radius: 5px;
+	height: 30px;
+	border: solid 1px #7900d1;
+}
+
+input:focus,
+select:focus,
+option:focus {
+	border: solid 1px #d097ff;
+	outline: none;
+}
+
+.send-button {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	width: 150px;
+	height: 40px;
+	background-color: #fef5ec;
+}
+
+button:hover {
 	color: #fff;
 	border: solid 1px #7900d1;
 	background-color: #7900d1;
@@ -259,13 +347,13 @@ footer {
 }
 footer p {
 	grid-column-start: 2;
-	grid-column-end: 4;
+	grid-column-end: 3;
 	width: 100%;
 	text-align: center;
 }
 
 footer a {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .liens {
@@ -284,13 +372,13 @@ footer a {
 	gap: 20px;
 }
 
-.contact {
+.contact-footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-items: center;
 	gap: 20px;
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .reseau-sociaux-footer {
@@ -387,9 +475,34 @@ footer p {
 		margin: 0;
 	}
 
+	.formulaire {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #fff;
+		margin: auto;
+		width: 800px;
+		height: 800px;
+		border-radius: 20px;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		height: fit-content;
+		padding: 30px;
+	}
+
+	.coordonner {
+		width: 400px;
+	}
+
+	form {
+		padding-left: 20px;
+		border-top: none;
+		border-left: solid 5px #d097ff;
+		width: 400px;
+	}
 	footer {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 2fr;
 		grid-column-gap: 20px;
 		justify-items: stretch;

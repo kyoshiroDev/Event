@@ -82,7 +82,70 @@
 		</div>
 		<!-- Hero Section End -->
 		<!-- Main Start -->
-		<main></main>
+		<main>
+			<h2>Contact</h2>
+			<section class="formulaire">
+				<div class="coordonner">
+					<p>NADÈGE GUILHEM</p>
+					<p>ORGANISATRICE D’ÉVÈNEMENTS</p>
+					<a href="tel:0785476860">07.85.47.68.60</a>
+					<a href="mailto:event@gmail.com">event@gmail.com</a>
+				</div>
+				<form
+					name="contact"
+					method="POST"
+					netlify>
+					<p>
+						<label
+							>Nom:
+							<input
+								type="text"
+								name="last-name"
+						/></label>
+					</p>
+					<p>
+						<label
+							>Prénom:
+							<input
+								type="text"
+								name="first-name"
+						/></label>
+					</p>
+					<p>
+						<label
+							>Téléphone:
+							<input
+								type="tel"
+								name="phone"
+						/></label>
+					</p>
+					<p>
+						<label
+							>Email:
+							<input
+								type="email"
+								name="email"
+						/></label>
+					</p>
+					<p>
+						<label for="prestation-selected"
+							>Choissir la prestation concerner</label
+						>
+						<select
+							name="prestation"
+							id="prestation-selected">
+							<option value="">Choisir une prestation</option>
+							<option value="Anniversaire">Anniversaire</option>
+							<option value="Anniversaire">Mariage</option>
+							<option value="Anniversaire">Atelier</option>
+						</select>
+					</p>
+					<p class="send-button">
+						<button type="submit">Envoyer</button>
+					</p>
+				</form>
+			</section>
+		</main>
 		<!-- Main End -->
 		<!-- Footer -->
 		<footer>
@@ -94,15 +157,12 @@
 				<a href="ateliers.html">ATELIERS</a>
 				<a href="contact.html">CONTACT</a>
 			</div>
-			<div class="horaires">
-				<h4>Horaires</h4>
-			</div>
-			<div class="contact">
+			<div class="contact-footer">
 				<h4>Contact</h4>
 				<p>NADÈGE GUILHEM</p>
-        <p>ORGANISATRICE D’ÉVÈNEMENTS</p>
-        <a href="tel:0785476860">07.85.47.68.60</a>
-        <a href="mailto:event@gmail.com">event@gmail.com</a>
+				<p>ORGANISATRICE D’ÉVÈNEMENTS</p>
+				<a href="tel:0785476860">07.85.47.68.60</a>
+				<a href="mailto:event@gmail.com">event@gmail.com</a>
 			</div>
 			<div class="reseaux">
 				<h4>Nos reseaux</h4>
@@ -123,7 +183,7 @@
 					/></a>
 				</div>
 			</div>
-			<p>Site réaliser par ForgeDigital</p>
+			<p>Site réaliser par ForgeDigitalWeb</p>
 		</footer>
 		<script src="script.js"></script>
 	</body>
