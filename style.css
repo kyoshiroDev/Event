@@ -264,7 +264,7 @@ button {
 	align-items: center;
 	background-color: #fff;
   margin: auto;
-	width: 1000px;
+	max-width: 1000px;
 	min-width: 370px;
 	border-radius: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
