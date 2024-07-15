@@ -181,17 +181,8 @@ h3 {
 	padding-bottom: 20px;
 }
 
-.picture-content {
-	border: solid 6px white;
-	min-width: auto;
-	max-height: 536px;
-}
-
-.picture {
-	width: 350px;
-	height: 524px;
-	max-height: 536;
-	min-width: 380px;
+.picture{
+  border: solid 6px white;
 }
 
 .prestation-client {
