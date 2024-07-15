@@ -107,9 +107,9 @@ a:hover {
 	align-items: center;
 	justify-content: space-around;
 	background-image: url(Images/alliance.webp);
-	background-position: top;
+	background-position: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size:100%;
 	min-height: max-content;
 	padding: 10px;
 }
