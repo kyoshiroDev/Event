@@ -173,9 +173,9 @@ h3 {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	gap: 20px;
-	width: 350px;
+	max-width: 350px;
 	margin: auto;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .content {
@@ -205,6 +205,7 @@ h3 {
 	justify-content: space-around;
 	background-color: #fff;
 	padding: 30px;
+  max-width: 100%;
 }
 
 .formule-content {
@@ -224,7 +225,7 @@ h3 {
 	gap: 10px;
 	padding: 20px;
 	border: solid 6px #d097ff;
-	width: 350px;
+	max-width: 350px;
 	background-color: #fef5ec;
 }
 
