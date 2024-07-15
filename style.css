@@ -190,7 +190,6 @@ h3 {
 .picture{
   box-sizing: content-box;
   border: solid 6px #fff;
-  max-width: 507px;
   object-fit:contain;
 }
 
