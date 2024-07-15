@@ -191,6 +191,7 @@ h3 {
   box-sizing: content-box;
   border: solid 6px #fff;
   max-width: 507px;
+  object-fit: cover;
 }
 
 .prestation-client {
