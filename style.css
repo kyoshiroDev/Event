@@ -27,7 +27,6 @@ body {
 section{
   width: 100%;
   margin: auto;
-  padding-top: 30px;
 }
 
 /* Header Start */
@@ -159,6 +158,7 @@ h2 {
 	font-family: adlery-blockletter, serif;
 	font-size: 2.55em;
 	text-align: center;
+	padding: 20px 0;
 }
 
 h3 {
