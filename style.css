@@ -301,7 +301,7 @@ option,textarea {
 }
 
 input,selecto,option{
-  	height: 30px;
+  height: 30px;
 }
 
 input:focus,
@@ -389,7 +389,9 @@ footer a {
 	gap: 20px;
 }
 
-h4 {
+.titre-footer {
+  font-family: adlery-blockletter, serif, sans-serif;
+  color: #000;
 	font-size: 2em;
 }
 
