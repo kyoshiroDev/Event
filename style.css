@@ -184,13 +184,12 @@ h3 {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-  width: 100%;
   height: max-content;
 }
 
 .picture{
-  max-width: 350px;
-  border: solid 6px white;
+  max-width: 507px;
+  bor
 }
 
 .prestation-client {
