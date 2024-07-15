@@ -24,9 +24,9 @@ body {
 	font-size: 62.5%;
 }
 
-section{
-  width: 100%;
-  margin: auto;
+section {
+	width: 100%;
+	margin: auto;
 }
 
 /* Header Start */
@@ -109,7 +109,7 @@ a:hover {
 	background-image: url(Images/alliance.webp);
 	background-position: cover;
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size: 100%;
 	min-height: max-content;
 	padding: 10px;
 }
@@ -158,8 +158,8 @@ h2 {
 	font-family: adlery-blockletter, serif;
 	font-size: 2.55em;
 	text-align: center;
-  margin-top: 25px;
-  height: 50px;
+	margin-top: 25px;
+	height: 50px;
 }
 
 h3 {
@@ -176,7 +176,7 @@ h3 {
 	gap: 20px;
 	max-width: 350px;
 	margin: auto;
-  padding: 20px;
+	padding: 20px;
 }
 
 .content {
@@ -184,13 +184,13 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-  height: max-content;
+  width: 100%;
 }
 
-.picture{
-  box-sizing: content-box;
-  border: solid 6px #fff;
-  object-fit:contain;
+.picture {
+	box-sizing: content-box;
+	border: solid 6px #fff;
+	object-fit: cover;
 }
 
 .prestation-client {
@@ -204,7 +204,7 @@ h3 {
 	justify-content: space-around;
 	background-color: #fff;
 	padding: 30px;
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .formule-content {
@@ -263,7 +263,7 @@ button {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;
-  margin: auto;
+	margin: auto;
 	max-width: 1000px;
 	min-width: 370px;
 	border-radius: 20px;
@@ -280,7 +280,7 @@ button {
 }
 
 .coordonner a {
-  text-align: center;
+	text-align: center;
 	font-size: 2em;
 	width: 100%;
 }
@@ -303,19 +303,23 @@ label {
 
 input,
 select,
-option,textarea {
+option,
+textarea {
 	background-color: #fff;
 	border-radius: 5px;
 	border: solid 1px #7900d1;
 }
 
-input,selecto,option{
-  height: 30px;
+input,
+selecto,
+option {
+	height: 30px;
 }
 
 input:focus,
 select:focus,
-option:focus,textarea {
+option:focus,
+textarea {
 	border: solid 1px #d097ff;
 	outline: none;
 }
@@ -399,8 +403,8 @@ footer a {
 }
 
 .titre-footer {
-  font-family: adlery-blockletter, serif, sans-serif;
-  color: #000;
+	font-family: adlery-blockletter, serif, sans-serif;
+	color: #000;
 	font-size: 2em;
 }
 
@@ -485,8 +489,8 @@ footer p {
 		flex-direction: row;
 	}
 
-	.coordonner{
-    text-align: center;
+	.coordonner {
+		text-align: center;
 		width: 500px;
 	}
 
