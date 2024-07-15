@@ -24,6 +24,10 @@ body {
 	font-size: 62.5%;
 }
 
+section{
+  margin: auto;
+}
+
 /* Header Start */
 header {
 	display: flex;
@@ -179,9 +183,13 @@ h3 {
 	justify-content: center;
 	gap: 20px;
 	padding-bottom: 20px;
+  width: min-content;
+  height: min-content;
 }
 
 .picture{
+  width: 350px;
+  height: 525px ;
   border: solid 6px white;
 }
 
