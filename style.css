@@ -25,6 +25,7 @@ body {
 }
 
 section{
+  width: 100%;
   margin: auto;
 }
 
@@ -174,6 +175,7 @@ h3 {
 	gap: 20px;
 	width: 350px;
 	margin: auto;
+  padding: 20px 0;
 }
 
 .content {
@@ -182,7 +184,7 @@ h3 {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-  max-width: 1000px;
+  width: 100%;
   height: max-content;
 }
 
